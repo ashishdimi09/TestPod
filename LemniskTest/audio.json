@@ -1,0 +1,38 @@
+{
+  "aps": {
+    "alert": {
+      "body": "Apply now to get additional cashback of Rs. 20000.",
+      "title": "Personal Loans at 10%"
+    },
+    "sound": "default",
+    "mutable-content": 1,
+    "category": "audio"
+  },
+  "device": "ios",
+  "bundleid": "co.lemnisk.app.ios.bankingdemo",
+  "meta": {
+    "push_from": "lemnisk",
+    "adv_id": "<adv_id>",
+    "rid": "<rid>",
+    "cid": "6003",
+    "type": "push"
+  },
+  "push_type": 2,
+  "payload": {
+    "audio": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
+    "label": "Personal Loan",
+    "deeplink": "lemniskDemoApp://applyLoan",
+    "message": "Apply now to get additional cashback of Rs. 10000",
+    "title": "Personal Loans at 10%",
+    "button": [
+      {
+        "text": "Apply Now",
+        "deeplink": "lemniskDemoApp://applyLoan"
+      },
+      {
+        "text": "Know More",
+        "deeplink": "https://www.bajajfinserv.in/personal-loan-processing-fees-and-interest-rates "
+      }
+    ]
+  }
+}

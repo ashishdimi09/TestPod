@@ -1,0 +1,90 @@
+{
+  "aps": {
+    "alert": {
+      "body": "Apply now to get additional cashback of Rs. 20000.",
+      "title": "Personal Loans at 10%"
+    },
+    "sound": "default",
+    "badge": "1",
+    "category": "carousel_AppKnow",
+    "mutable-content": 1
+  },
+  "device": "ios",
+  "bundleid": "co.lemnisk.app.ios.bankingdemo",
+  "meta": {
+    "push_from": "lemnisk",
+    "adv_id": "devid123",
+    "rid": "rid123",
+    "cid": "4658",
+    "type": "push"
+  },
+  "push_type": 2,
+  "payload": {
+    "cp": [
+      {
+        "verticalAlign": "top",
+        "align": "left",
+        "image": "https://cdn25.lemnisk.co/ssp/Banking_Demo_DMP/403a6797-7ba3-4f0d-9031-d7ad42998f7d.jpg",
+        "label": "Personal Loan",
+        "deeplink": "https://uniqueminds.co",
+        "message": "Apply now to get additional cashback of Rs. 10000.",
+        "message_color": "#ffffff",
+        "message_font_size": 16,
+        "title": "Business Loan",
+        "title_color": "#ffffff",
+        "title_font_size": 20
+      },
+      {
+        "verticalAlign": "top",
+        "align": "left",
+        "image": "https://cdn25.lemnisk.co/ssp/Banking_Demo_DMP/8e673406-09b5-4733-bd0c-977264fc2bef.jpg",
+        "label": "Personal Loan",
+        "deeplink": "https://uniqueminds.in",
+        "message": "Refer your friends now to get additional cashback of Rs. 100000.",
+        "message_color": "#ffffff",
+        "message_font_size": 16,
+        "title": "Referal Bonaza",
+        "title_color": "#ffffff",
+        "title_font_size": 20
+      },
+      {
+        "verticalAlign": "center",
+        "align": "right",
+        "image": "https://cdn25.lemnisk.co/ssp/Banking_Demo_DMP/cb2fdcc7-7b4a-4d2b-a096-8ff36232027a.jpg",
+        "label": "Education Loan",
+        "deeplink": "https://lemnisk.co",
+        "message": "Get attractive interest rates, starting at 7%",
+        "message_color": "#ffffff",
+        "message_font_size": 16,
+        "title": "Education Loans",
+        "title_color": "#ffffff",
+        "title_font_size": 20
+      },
+      {
+        "align": "center",
+        "image": "https://cdn25.lemnisk.co/ssp/Banking_Demo_DMP/8e673406-09b5-4733-bd0c-977264fc2bef.jpg",
+        "label": "Bike Loan",
+        "deeplink": "https://apple.com",
+        "message": "Buy your dream bike with the Bike loan that suits you.",
+        "message_color": "#5d8fc3",
+        "message_font_size": 16,
+        "title": "Bike Loan",
+        "title_color": "#0066e8",
+        "title_font_size": 20
+      }
+    ],
+    "button": [
+      {
+        "text": "Apply Now",
+        "deeplink": "lemniskDemoApp://applyLoan"
+      },
+      {
+        "text": "Know More",
+        "deeplink": "https://www.hdfcbank.com/personal/products/cards/credit_cards"
+      }
+    ],
+    "label": "Loans",
+    "deeplink": "https://www.axisbank.com/retail/loans/personal-loan/features-benefits",
+    "indicator_position": "Center_Bottom"
+  }
+}
